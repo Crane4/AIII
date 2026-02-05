@@ -30,7 +30,4 @@ cleaning_decisions = {
     "income_cap_99": "Cap income at 99th percentile to reduce influence of extreme values while keeping all records.",
     "age_median_imp": "Impute missing age with global median; less sensitive to outliers than mean."
 }
-
-# الاستخدام:
-# df_final = clean_data_project(pd.read_csv("data.csv"))
-# df_final.to_csv("cleaned_data.csv", index=False)
+.
